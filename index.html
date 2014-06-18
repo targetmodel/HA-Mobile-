@@ -1,0 +1,2613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HA Mobile | Award</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css"/>
+  <link rel="stylesheet" href="css/typography.css"/>
+  <link rel="stylesheet" href="css/bootstrap.css"/>
+  <link rel="stylesheet" href="css/bootstrap.timepicker.min.css"/>
+  <link rel="stylesheet" href="css/datepicker.css"/>
+  <link rel="stylesheet" href="css/bootstrap-responsive.min.css"/>
+  <link rel="stylesheet" href="css/main.css"/>
+</head>
+<body>
+<div class="row-fluid">
+  <div class="header">
+    <div class="span3">
+      <h1 class="brand">branding area 1</h1>
+    </div>
+    <div class="span9">
+      <h1 class="brand">branding area 2</h1>
+    </div>
+  </div>
+  <div class="row-fluid whiteBg">
+    <div class="span3 grayBg leftBar">
+      <form class="form-horizontal">
+        <div class="form-group control-group form-submit-wrap form-submit-wrap2">
+          <button type="button" class="btn span12 btn-default sign-out">Sign Out USERNAME</button>
+        </div>
+        <div id="accordion1" class="accordion whiteBg">
+          <div class="accordion-group">
+            <div class="accordion-heading">
+              <a href="#collapseOne" data-parent="#accordion1" data-toggle="collapse" class="accordion-toggle span12">
+                Content Management
+              </a>
+            </div>
+            <div class="tabbable accordion-body collapse in" id="collapseOne">
+              <ul class="accordion-inner">
+                <li class="active form-group control-group form-submit-wrap form-submit-wrap2"><a href="#1A" data-toggle="tab">award builder</a></li>
+                <li class="form-group control-group form-submit-wrap form-submit-wrap2"><a href="#1B" data-toggle="tab">poker bad beat jackpot</a></li>
+                <li class="form-group control-group form-submit-wrap form-submit-wrap2"><a href="#1C" data-toggle="tab">slot inventory</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="accordion-group">
+            <div class="accordion-heading accordian-heading2">
+              <a href="#collapseTwo" data-parent="#accordion1" data-toggle="collapse" class="accordion-toggle span12">Configuration</a>
+            </div>
+            <div class="tabbable accordion-body collapse" id="collapseTwo">
+              <ul class="accordion-inner">
+                <li class="active form-group control-group form-submit-wrap form-submit-wrap2"><a href="#2A" data-toggle="tab">Tournament Builder</a></li>
+                <li class="form-group control-group form-submit-wrap form-submit-wrap2"><a href="#2B" data-toggle="tab">adPression Management</a></li>
+                <li class="form-group control-group form-submit-wrap form-submit-wrap2"><a href="#2C" data-toggle="tab">Refer a Friend Management</a></li>
+                <li class="form-group control-group form-submit-wrap form-submit-wrap2"><a href="#2D" data-toggle="tab">Map Management</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="form-group control-group form-submit-wrap form-submit-wrap2">
+          <button type="button" class="btn span12 btn-default viewer">Viewer</button>
+        </div>
+      </form>
+      <div class="span12 branding-area3">
+        <h3 class="brand">branding area 3</h3>
+      </div>
+    </div>
+    <div class="span9">
+      <div class="tab-content">
+        <div class="tab-pane active awardArea commonContainer" id="1A">
+          <div class="span3 awardBuilderArea">
+            <div class="span12">
+              <h4>Award Builder</h4>
+            </div>
+            <div>
+              <div class="span12 minHeight20">
+                <div class="span6 minHeight20">
+                  <label>Tournament</label>
+                </div>
+                <div class="span6 minHeight20">
+                  <button class="btn addButton">Add</button>
+                </div>
+              </div>
+              <div class="span12 filter-wrap">
+                <div class="input-group span12">
+                  <input type="text" class="form-control span11">
+                  <span class="input-group-btn span1 inbuilt-btn">
+                    <button type="button" class="btn btn-default">&nbsp;</button>
+                  </span>
+                </div>
+              </div>
+              <div class="span12 filterOptions">
+                <select name="prizes" id="prizes" class="span12 selectBox">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+              </div>
+              <div class="span12 results">
+                <div class="span12 btn-wrap">
+                  <a href="#" class="results-control span4">active</a>
+                  <a href="#" class="results-control span4">inactive</a>
+                  <a href="#" class="results-control span4">all</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="span9 awardDetailsArea">
+            <div class="span11">
+              <h4>Award Details</h4>
+            </div>
+            <div>
+              <div class="span4">
+                <form action="#" class="form-inline">
+                  <div class="control-group">
+                    <div class="controls">
+                      <label for="awardName" class="span12">Award Name</label>
+                    </div>
+                    <div class="controls">
+                      <input type="text" class="span12" placeholder="Award Name" id="awardName">
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="controls">
+                      <label for="awardDesc">Award descriptions</label>
+                    </div>
+                    <div class="controls">
+                      <textarea name="awardDesc" id="awardDesc" class="span12" placeholder="redeem"></textarea>
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="controls">
+                      <label for="awardType">Award Type</label>
+                    </div>
+                    <div class="controls">
+                      <select name="awardType" id="awardType" class="span12">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="controls">
+                      <label for="awardQnt">Award Quantity</label>
+                    </div>
+                    <div class="controls">
+                      <input type="text" class="span12" id="awardQnt"/>
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="controls">
+                      <label for="awardVal">Award Value</label>
+                    </div>
+                    <div class="controls">
+                      <input type="text" class="span12" id="awardVal"/>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="span7">
+              <div class="span12 fieldset">
+                <form>
+                  <fieldset>
+                    <legend>
+                      <input type="checkbox" id="control" class="control"/><label for="control" class="controlLabel">Define Explanation</label>
+                    </legend>
+                    <div class="controlContent">
+                      <div class="span5 label-left">
+                        <input type="radio" name="explanation" id="fixed-ex" disabled/>
+                        <label for="fixed-ex">Fixed Explanation</label>
+                        <input type="radio" name="explanation" id="rolling-ex" disabled/>
+                        <label for="rolling-ex">Rolling Explanation</label>
+                      </div>
+                      <div class="span6">
+                        <div class="form-group">
+                          <div class="span12 labelSpan">
+                            <label for="count">Count</label>
+                          </div>
+                          <div class="span12">
+                            <input type="text" id="count" class="span12" disabled/>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="span12 labelSpan">
+                            <label for="period">Period</label>
+                          </div>
+                          <div class="span12">
+                            <select name="period" id="period" class="span12" disabled/>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </fieldset>
+                </form>
+                <form class="barcode">
+                  <fieldset>
+                    <legend>
+                      <input type="checkbox" id="control2" class="control"/><label for="control2" class="controlLabel">Define Barcode</label>
+                    </legend>
+                    <div class="controlContent">
+                      <div class="span6 no-padding">
+                        <div class="">
+                          <input type="checkbox" name="tournament" id="tournament" disabled/>
+                          <label for="tournament">Tournament ID</label>
+                        </div>
+                        <div class="">
+                          <input type="checkbox" name="promotion" id="promotion" disabled/>
+                          <label for="promotion">Promotion Event Award</label>
+                        </div>
+                      </div>
+                      <div class="span5 no-padding">
+                        <div class="">
+                          <input type="checkbox" name="player" id="player" disabled/>
+                          <label for="player">Player ID</label>
+                        </div>
+                        <div class="">
+                          <input type="checkbox" name="redemption" id="redemption" disabled/>
+                          <label for="redemption">Redemption ID</label>
+                        </div>
+                      </div>
+                    </div>
+                  </fieldset>
+                </form>
+              </div>
+            </div>
+            <div class="voucher-wrap fieldset span12">
+              <div class="span11">
+                <form>
+                  <fieldset>
+                    <legend>
+                      <input type="checkbox" id="control3" class="control"/><label for="control3" class="controlLabel">Define Barcode</label>
+                    </legend>
+                    <div class="span12 no-padding controlContent">
+                      <div class="span12">
+                        <label for="disclaimer-text">Disclaimer Text</label>
+                      </div>
+                      <div>
+                        <textarea name="disclaimer-text" class="span11 ruled-text" id="disclaimer-text" disabled></textarea>
+                      </div>
+                      <div class="span12 margin0">
+                        <label for="finePrint-text">Fine Print</label>
+                      </div>
+                      <div>
+                        <textarea name="finePrint-text" class="span11 ruled-text" id="finePrint-text" disabled></textarea>
+                      </div>
+                    </div>
+                  </fieldset>
+                </form>
+              </div>
+            </div>
+            <div class="span11 btn-wrap btn-wrap2">
+              <div class="span4 results-control">save</div>
+              <div class="span4 results-control">cancel</div>
+              <div class="span4 results-control">delete</div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane jackPotArea commonContainer" id="1B">
+          <div class="span3 minHeight600">
+            <div class="span12">
+              <h4>Poker Bad Beat Jackpot</h4>
+            </div>
+            <div>
+              <div class="span12">
+                <label for="jakpotValue">Bad Beat Jackpot Value</label>
+                <input type="text" class="span12" id="jakpotValue"/>
+              </div>
+            </div>
+          </div>
+          <div class="span9 awardDetailsArea">
+
+          </div>
+          <div>
+            <div class="span12 btn-wrap btn-wrap2">
+              <div class="span4 results-control">save</div>
+              <div class="span4 results-control">cancel</div>
+              <div class="span4 results-control">delete</div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane slotInventoryArea commonContainer" id="1C">
+          <div class="span3 awardBuilderArea">
+            <div class="span12">
+              <h4>Slot Inventory</h4>
+            </div>
+            <div>
+              <div class="span12 minHeight20">
+                <div class="span6 minHeight20">
+                  <label>Slot</label>
+                </div>
+                <div class="span6 minHeight20">
+                  <button class="btn addButton">Add</button>
+                </div>
+              </div>
+              <div class="span12 filter-wrap">
+                <div class="input-group span12">
+                  <input type="text" class="form-control span11">
+                  <span class="input-group-btn span1 inbuilt-btn">
+                    <button type="button" class="btn btn-default">&nbsp;</button>
+                  </span>
+                </div>
+              </div>
+              <div class="span12 margin0">
+                <select name="prizes" id="prizes" class="span12 selectBox">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+              </div>
+              <div class="span12 results">
+                <div class="span12 btn-wrap">
+                  <a href="#" class="results-control span4">active</a>
+                  <a href="#" class="results-control span4">inactive</a>
+                  <a href="#" class="results-control span4">all</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="span9 awardDetailsArea">
+            <div class="span4">
+              <h4>Slot Inventory</h4>
+              <form>
+                <label for="slotAssetID">Asset ID</label>
+                <input type="text" id="slotAssetID"/>
+                <label for="slotmanufacturer">Manufacturer</label>
+                <select name="slotmanufacturer" id="slotmanufacturer">
+                  <option value="manufacturer 1">manufacturer 1</option>
+                  <option value="manufacturer 2">manufacturer 2</option>
+                  <option value="manufacturer 3">manufacturer 3</option>
+                  <option value="manufacturer 4">manufacturer 4</option>
+                </select>
+                <label for="slotGameType">Game Type</label>
+                <select name="slotGameType" id="slotGameType">
+                  <option value="game 1">game 1</option>
+                  <option value="game 2">game 2</option>
+                  <option value="game 3">game 3</option>
+                  <option value="game 4">game 4</option>
+                </select>
+                <label for="slotDenomination">Denomination</label>
+                <select name="slotDenomination" id="slotDenomination">
+                  <option value="deno1">deno1</option>
+                  <option value="deno2">deno2</option>
+                  <option value="deno3">deno3</option>
+                  <option value="deno4">deno4</option>
+                </select>
+                <label for="slotGameName">Game Name</label>
+                <select name="slotGameName" id="slotGameName">
+                  <option value="game 1">game 1</option>
+                  <option value="game 2">game 2</option>
+                  <option value="game 3">game 3</option>
+                  <option value="game 4">game 4</option>
+                </select>
+              </form>
+            </div>
+            <div class="span12 btn-wrap btn-wrap2">
+              <div class="span4 results-control">save</div>
+              <div class="span4 results-control">cancel</div>
+              <div class="span4 results-control">delete</div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane awardArea commonContainer" id="2A">
+          <div class="span3 awardBuilderArea">
+            <div class="span12">
+              <h4>Tournament Builder</h4>
+            </div>
+            <div>
+              <div class="span12">
+                <div class="span6">
+                  <p>Tournaments</p>
+                </div>
+                <div class="span6">
+                  <button class="btn addButton">Add</button>
+                </div>
+              </div>
+              <div class="span12 filter-wrap">
+                <div class="input-group span12">
+                  <input type="text" class="form-control span11">
+                    <span class="input-group-btn span1 inbuilt-btn">
+                      <button type="button" class="btn btn-default">&nbsp;</button>
+                    </span>
+                </div>
+              </div>
+              <div class="span12 results">
+                <div class="span12 btn-wrap">
+                  <a href="#" class="results-control span4">active</a>
+                  <a href="#" class="results-control span4">inactive</a>
+                  <a href="#" class="results-control span4">all</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="span9 awardDetailsArea">
+            <div class="span12">
+              <h4>Tournament Details</h4>
+              <div class="tabbable span8">
+                <ul class="nav-pills tNav">
+                  <li class="active span12">
+                    <a href="#2AAA">Details</a>
+                  </li>
+                </ul>
+                <ul class="nav-pills tNav">
+                  <li class="active navSpan5">
+                    <a href="#2AA" data-toggle="tab">Overview</a>
+                  </li>
+                  <li class="navSpan5">
+                    <a href="#2AB" data-toggle="tab">Definition</a>
+                  </li>
+                  <li class="navSpan5">
+                    <a href="#2AC" data-toggle="tab">Schedule</a>
+                  </li>
+                  <li class="navSpan5 locationNavParent">
+                    <a href="#2ADA" data-toggle="tab">Location</a>
+                    <div class="locationNav tabbable">
+                      <ul class="tNav nav-pills">
+                        <li class="navSpan3 active">
+                          <a data-toggle="tab" href="#2ADA">Area</a>
+                        </li>
+                        <li class="navSpan3">
+                          <a data-toggle="tab" href="#2ADB">Section</a>
+                        </li>
+                        <li class="navSpan3">
+                          <a data-toggle="tab" href="#2ADC">Position</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="navSpan5 locationNavParent">
+                    <a href="#2AEA" data-toggle="tab">Population</a>
+                    <div class="locationNav locationNav2 tabbable">
+                      <ul class="tNav nav-pills">
+                        <li class="navSpan2 active">
+                          <a href="#2AEA" data-toggle="tab">Tiers</a>
+                        </li>
+                        <li class="navSpan2">
+                          <a href="#2AEB" data-toggle="tab">List</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="tabbable span4">
+                <ul class="nav-pills tNav">
+                  <li class="span12">
+                    <a href="#2AAA">Messages</a>
+                  </li>
+                </ul>
+                <ul class="nav-pills tNav">
+                  <li class="navSpan3">
+                    <a href="#2AF" data-toggle="tab">Leaderboard</a>
+                  </li>
+                  <li class="navSpan3">
+                    <a href="#2AG" data-toggle="tab">End</a>
+                  </li>
+                  <li class="navSpan3">
+                    <a href="#2AH" data-toggle="tab">Celebration</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-content tabConNext span12">
+                <div class="tab-pane active indentpara overviewArea" id="2AA">
+                  <h5 class="alertText">Definition - Incomplete</h5>
+                  <p>November 2013 Tournament is a Floorwide Monthly Tournament with the top 50 players in the money.</p>
+                  <p>Points are based on Coin In, requiring 10 Coin In to earn 1 Point.</p>
+                  <p class="alertText">Awards for the top 50 players are incomplete, with only 35 positions assigned an award.</p>
+                  <h5>Schedule - Complete</h5>
+                  <p>The tournament is scheduled to start at 12:00 AM on December 1, 2013, and end at 11:59 PM on December 31, 2013.</p>
+                  <p>The tournament is active: Mondays from 9:00 AM to 3:00 PM, Tuesdays from 9:00 AM to 3:00 PM, Wednesdays from 9:00 AM to 3:00 PM, and Thursdays from 9:00 AM to 3:00 PM.</p>
+                  <h5>Location - Complete</h5>
+                  <p>The tournament is NOT floor wide.</p>
+                  <p>The tournament is limited to 2 Areas, 2 Sections, and 740 Positions.</p>
+                  <h5>Population - Complete</h5>
+                  <p>The tournament is NOT open to all players.</p>
+                  <p>The tournament is limited to 2 Tiers and 43,001 specific players.</p>
+                  <h5 class="alertText">Messages - Incomplete</h5>
+                  <p>The tournament has leaderboard messaging defined.</p>
+                  <p>The tournament has Proximity End Messaging defined.</p>
+                  <p class="alertText">The tournament does NOT have Celebration Messaging defined.</p>
+                </div>
+                <div class="tab-pane" id="2AB">
+                  <div class="span12">
+                    <div class="span4">
+                      <label for="tournamentName">Tournament Name</label>
+                      <input type="text" id="tournamentName"/>
+                      <label for="tournamentDesc">Tournament Description</label>
+                      <input type="text" id="tournamentDesc"/>
+                      <label for="leaderboardPos">Leaderboard Position</label>
+                      <input type="text" id="leaderboardPos"/>
+                      <label for="leaderboardBasis">Tournament Leaderboard Basis</label>
+                      <select name="leaderboardBasis" id="leaderboardBasis">
+                        <option value="coin in">Coin In</option>
+                        <option value="coin out">Coin Out</option>
+                        <option value="theoretical win">Theoretical Win</option>
+                      </select>
+                      <label for="pointCalculation">Point Calculation factor</label>
+                      <input type="text" id="pointCalculation"/>
+                      <label for="exampleCalculation">Example Calculation</label>
+                      <textarea name="exampleCalculation" id="exampleCalculation"></textarea>
+                    </div>
+                    <div class="span8">
+                      <label>Tournament Awards</label>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                          <span class="sr-only">35 of 50 Assigned</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="2AC">
+                  <div class="span12">
+                    <div class="span4">
+                      <div>
+                        <div class="span12 minHeight20">
+                          <div class="span6 minHeight20">
+                            <label>Tournament</label>
+                          </div>
+                          <div class="span6 minHeight20">
+                            <button class="btn addButton">Add</button>
+                          </div>
+                        </div>
+                        <div class="span12 filter-wrap">
+                          <div class="input-group span12">
+                            <input type="text" class="form-control span11">
+                            <span class="input-group-btn span1 inbuilt-btn"><button type="button" class="btn btn-default">&nbsp;</button></span>
+                          </div>
+                        </div>
+                        <div class="span12 results">
+                          <div class="span12 btn-wrap">
+                            <a href="#" class="results-control span4">active</a>
+                            <a href="#" class="results-control span4">inactive</a>
+                            <a href="#" class="results-control span4">all</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="span8">
+                      <div>
+                        <label for="scheduleName">Schedule Name</label>
+                        <input type="text" id="scheduleName" class="span12" placeholder="Mon-Thu from 9A-3P"/>
+                      </div>
+                      <div>
+                        <form class="barcode fieldset">
+                          <fieldset>
+                            <legend>
+                              <input type="checkbox" class="control" id="control4"><label class="controlLabel noCheck" for="control4">Schedule</label>
+                            </legend>
+                            <div>
+                              <div class="span3">
+                              </div>
+                              <div class="span8 noIndent">
+                                <div class="span6">
+                                  <div>
+                                    <div class="span3">
+                                      <label class="fakeDatepicker" for="datepicker01">From</label>
+                                    </div>
+                                    <div class="span9">
+                                      <div data-date-format="dd-mm-yyyy" data-date="" id="datepicker01" class="input-append date">
+                                        <input type="text" value="12-02-2012" size="16" class="span9">
+                                        <span class="add-on"><i class="icon-calendar"></i></span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div>
+                                    <div class="span3">
+                                      <label class="fakeDatepicker" for="datepicker02">To</label>
+                                    </div>
+                                    <div class="span9">
+                                      <div data-date-format="dd-mm-yyyy" data-date="" id="datepicker02" class="input-append date">
+                                        <input type="text" value="12-02-2012" size="16" class="span9">
+                                        <span class="add-on"><i class="icon-calendar"></i></span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="span6">
+                                  <div>
+                                    <div class="span2 offset1">
+                                      <label class="timepicker" for="timepicker03">At</label>
+                                    </div>
+                                    <div class="span9">
+                                      <div class="input-append bootstrap-timepicker">
+                                        <input type="text" class="input-small span9" id="timepicker03">
+                                        <span class="add-on"><i class="icon-time"></i></span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div>
+                                    <div class="span2 offset1">
+                                      <label class="timepicker" for="timepicker04">At</label>
+                                    </div>
+                                    <div class="span9">
+                                      <div class="input-append bootstrap-timepicker">
+                                        <input type="text" class="input-small span9" id="timepicker04">
+                                        <span class="add-on"><i class="icon-time"></i></span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </fieldset>
+                        </form>
+                      </div>
+                      <div>
+                        <form class="barcode fieldset">
+                          <fieldset>
+                            <legend>
+                              <input type="checkbox" class="control" id="control5"><label class="controlLabel" for="control5">Schedule by Day of Week</label>
+                            </legend>
+                            <div class="controlContent noIndent">
+                              <div class="span3 no-padding">
+                                <div class="timepicker">
+                                  <input type="checkbox" id="scheduleByMon" name="scheduleBy" disabled>
+                                  <label for="scheduleByMon">Monday</label>
+                                </div>
+                                <div class="timepicker">
+                                  <input type="checkbox" id="scheduleByTue" name="scheduleBy" disabled>
+                                  <label for="scheduleByTue">Tuesday</label>
+                                </div>
+                                <div class="timepicker">
+                                  <input type="checkbox" id="scheduleByWed" name="scheduleBy" disabled>
+                                  <label for="scheduleByWed">Wednesday</label>
+                                </div>
+                                <div class="timepicker">
+                                  <input type="checkbox" id="scheduleByThu" name="scheduleBy" disabled>
+                                  <label for="scheduleByThu">Thursday</label>
+                                </div>
+                                <div class="timepicker">
+                                  <input type="checkbox" id="scheduleByFri" name="scheduleBy" disabled>
+                                  <label for="scheduleByFri">Friday</label>
+                                </div>
+                                <div class="timepicker">
+                                  <input type="checkbox" id="scheduleBySat" name="scheduleBy" disabled>
+                                  <label for="scheduleBySat">Saturday</label>
+                                </div>
+                                <div class="timepicker">
+                                  <input type="checkbox" id="scheduleBySun" name="scheduleBy" disabled>
+                                  <label for="scheduleBySun">Sunday</label>
+                                </div>
+                              </div>
+                              <div class="span8 no-padding">
+                                <div class="span6">
+                                  <div>
+                                    <div class="span3">
+                                      <label for="fromTime1" class="timepicker">From</label>
+                                    </div>
+                                    <div class="span9">
+                                      <div class="input-append bootstrap-timepicker">
+                                        <input id="fromTime1" type="text" class="input-small span9" disabled>
+                                        <span class="add-on"><i class="icon-time"></i></span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div>
+                                    <div class="span3">
+                                      <label for="fromTime2" class="timepicker">From</label>
+                                    </div>
+                                    <div class="span9">
+                                      <div class="input-append bootstrap-timepicker">
+                                        <input id="fromTime2" type="text" class="input-small span9" disabled>
+                                        <span class="add-on"><i class="icon-time"></i></span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div>
+                                    <div class="span3">
+                                      <label for="fromTime3" class="timepicker">From</label>
+                                    </div>
+                                    <div class="span9">
+                                      <div class="input-append bootstrap-timepicker">
+                                        <input id="fromTime3" type="text" class="input-small span9" disabled>
+                                        <span class="add-on"><i class="icon-time"></i></span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div>
+                                    <div class="span3">
+                                      <label for="fromTime4" class="timepicker">From</label>
+                                    </div>
+                                    <div class="span9">
+                                      <div class="input-append bootstrap-timepicker">
+                                        <input id="fromTime4" type="text" class="input-small span9" disabled>
+                                        <span class="add-on"><i class="icon-time"></i></span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div>
+                                    <div class="span3">
+                                      <label for="fromTime5" class="timepicker">From</label>
+                                    </div>
+                                    <div class="span9">
+                                      <div class="input-append bootstrap-timepicker">
+                                        <input id="fromTime5" type="text" class="input-small span9" disabled>
+                                        <span class="add-on"><i class="icon-time"></i></span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div>
+                                    <div class="span3">
+                                      <label for="fromTime6" class="timepicker">From</label>
+                                    </div>
+                                    <div class="span9">
+                                      <div class="input-append bootstrap-timepicker">
+                                        <input id="fromTime6" type="text" class="input-small span9" disabled>
+                                        <span class="add-on"><i class="icon-time"></i></span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div>
+                                    <div class="span3">
+                                      <label for="fromTime7" class="timepicker">From</label>
+                                    </div>
+                                    <div class="span9">
+                                      <div class="input-append bootstrap-timepicker">
+                                        <input id="fromTime7" type="text" class="input-small span9" disabled>
+                                        <span class="add-on"><i class="icon-time"></i></span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="span6">
+                                  <div>
+                                    <div class="span2 offset1">
+                                      <label for="toTime1" class="timepicker">To</label>
+                                    </div>
+                                    <div class="span9">
+                                      <div class="input-append bootstrap-timepicker">
+                                        <input id="toTime1" type="text" class="input-small span9" disabled>
+                                        <span class="add-on"><i class="icon-time"></i></span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div>
+                                    <div class="span2 offset1">
+                                      <label for="toTime2" class="timepicker">To</label>
+                                    </div>
+                                    <div class="span9">
+                                      <div class="input-append bootstrap-timepicker">
+                                        <input id="toTime2" type="text" class="input-small span9" disabled>
+                                        <span class="add-on"><i class="icon-time"></i></span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div>
+                                    <div class="span2 offset1">
+                                      <label for="toTime3" class="timepicker">To</label>
+                                    </div>
+                                    <div class="span9">
+                                      <div class="input-append bootstrap-timepicker">
+                                        <input id="toTime3" type="text" class="input-small span9" disabled>
+                                        <span class="add-on"><i class="icon-time"></i></span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div>
+                                    <div class="span2 offset1">
+                                      <label for="toTime4" class="timepicker">To</label>
+                                    </div>
+                                    <div class="span9">
+                                      <div class="input-append bootstrap-timepicker">
+                                        <input id="toTime4" type="text" class="input-small span9" disabled>
+                                        <span class="add-on"><i class="icon-time"></i></span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div>
+                                    <div class="span2 offset1">
+                                      <label for="toTime5" class="timepicker">To</label>
+                                    </div>
+                                    <div class="span9">
+                                      <div class="input-append bootstrap-timepicker">
+                                        <input id="toTime5" type="text" class="input-small span9" disabled>
+                                        <span class="add-on"><i class="icon-time"></i></span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div>
+                                    <div class="span2 offset1">
+                                      <label for="toTime6" class="timepicker">To</label>
+                                    </div>
+                                    <div class="span9">
+                                      <div class="input-append bootstrap-timepicker">
+                                        <input id="toTime6" type="text" class="input-small span9" disabled>
+                                        <span class="add-on"><i class="icon-time"></i></span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div>
+                                    <div class="span2 offset1">
+                                      <label for="toTime7" class="timepicker">To</label>
+                                    </div>
+                                    <div class="span9">
+                                      <div class="input-append bootstrap-timepicker">
+                                        <input id="toTime7" type="text" class="input-small span9" disabled>
+                                        <span class="add-on"><i class="icon-time"></i></span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </fieldset>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="2ADA">
+                  <div class="fieldset span12">
+                    <form>
+                      <fieldset>
+                        <legend>
+                          <input type="checkbox" class="control" id="control6"/>
+                          <label for="control6" class="controlLabel">All Carded Players</label>
+                        </legend>
+                        <div class="span10 offset1">
+                          <h6>Areas</h6>
+                          <div class="clearFloat">
+                            <div class="span5">
+                              <label for="AreasExclude">Exclude</label>
+                              <div>
+                                <div class="span12 filter-wrap">
+                                  <div class="input-group span12">
+                                    <input type="text" class="form-control span11" id="AreasExclude">
+                                      <span class="input-group-btn span1 inbuilt-btn">
+                                        <button class="btn btn-default" type="button">&nbsp;</button>
+                                      </span>
+                                  </div>
+                                  <div class="excludeFilterResult">
+                                    <ul>
+                                      <li>Exclude Item1</li>
+                                      <li>Exclude Item2</li>
+                                      <li>Exclude Item3</li>
+                                      <li>Exclude Item4</li>
+                                      <li>Exclude Item5</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="span1">
+                              <div class="filterControls">
+                                <button class="filterNext">&nbsp;</button>
+                                <button class="filterNextAll">&nbsp;</button>
+                                <button class="filterPrevAll"></button>
+                                <button class="filterPrev"></button>
+                              </div>
+                            </div>
+                            <div class="span5">
+                              <label for="AreasInclude">Include</label>
+                              <div>
+                                <div class="span12 filter-wrap">
+                                  <div class="input-group span12">
+                                    <input type="text" class="form-control span11" id="AreasInclude">
+                                      <span class="input-group-btn span1 inbuilt-btn">
+                                        <button class="btn btn-default" type="button">&nbsp;</button>
+                                      </span>
+                                  </div>
+                                  <div class="includeFilterResult">
+                                    <ul>
+                                      <li>Include Item1</li>
+                                      <li>Include Item2</li>
+                                      <li>Include Item3</li>
+                                      <li>Include Item4</li>
+                                      <li>Include Item5</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="uploaderArea clearFloat">
+                            <div class="span5">
+                              <label for="uploadCSV">Upload Areas by CSV</label>
+                              <div class="fileUploader">
+                                <a class='btn btn-inverse' href='javascript:;' style="right: 0; position: absolute;">
+                                  Browse...
+                                  <input type="file" id="uploadCSV" style='width: 82px; position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+                                </a>
+                                &nbsp;
+                                <span class='label label-info' id="upload-file-info"></span>
+                              </div>
+                            </div>
+                            <div class="span5 offset1">
+                              <div>
+                                <label for="recordList">Record in List</label>
+                                <div class="fileUploader">
+                                  <a class='btn btn-inverse' href='javascript:;' style="right: 0; position: absolute;">
+                                    Browse...
+                                    <input type="file" id="recordList" style='width: 82px; position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+                                  </a>
+                                  &nbsp;
+                                  <span class='label label-info' id="upload-file-info"></span>
+                                </div>
+                              </div>
+                              <div>
+                                <label for="validRecords">Valid Records</label>
+                                <div class="fileUploader">
+                                  <a class='btn btn-inverse' href='javascript:;' style="right: 0; position: absolute;">
+                                    Browse...
+                                    <input type="file" id="validRecords" style='width: 82px; position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+                                  </a>
+                                  &nbsp;
+                                  <span class='label label-info' id="upload-file-info"></span>
+                                </div>
+                              </div>
+                              <div>
+                                <label for="invalidRecords">Invalid Records</label>
+                                <div class="fileUploader">
+                                  <a class='btn btn-inverse' href='javascript:;' style="right: 0; position: absolute;">
+                                    Browse...
+                                    <input type="file" id="invalidRecords" style='width: 82px; position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+                                  </a>
+                                  &nbsp;
+                                  <span class='label label-info' id="upload-file-info"></span>
+                                </div>
+                              </div>
+                              <div class="clearListWrap">
+                                <input type="button" class="btn btn-inverse span12" value="Clear List"/>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </fieldset>
+                    </form>
+                  </div>
+                </div>
+                <div class="tab-pane" id="2ADB">
+                  <div class="fieldset span12">
+                    <form>
+                      <fieldset>
+                        <legend>
+                          <input type="checkbox" class="control" id="control6"/>
+                          <label for="control6" class="controlLabel">All Carded Players</label>
+                        </legend>
+                        <div class="span10 offset1">
+                          <h6>Sections</h6>
+                          <div class="clearFloat">
+                            <div class="span5">
+                              <label for="AreasExclude">Exclude</label>
+                              <div>
+                                <div class="span12 filter-wrap">
+                                  <div class="input-group span12">
+                                    <input type="text" class="form-control span11" id="AreasExclude">
+                                      <span class="input-group-btn span1 inbuilt-btn">
+                                        <button class="btn btn-default" type="button">&nbsp;</button>
+                                      </span>
+                                  </div>
+                                  <div class="excludeFilterResult">
+                                    <ul>
+                                      <li>Exclude Item1</li>
+                                      <li>Exclude Item2</li>
+                                      <li>Exclude Item3</li>
+                                      <li>Exclude Item4</li>
+                                      <li>Exclude Item5</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="span1">
+                              <div class="filterControls">
+                                <button class="filterNext">&nbsp;</button>
+                                <button class="filterNextAll">&nbsp;</button>
+                                <button class="filterPrevAll"></button>
+                                <button class="filterPrev"></button>
+                              </div>
+                            </div>
+                            <div class="span5">
+                              <label for="AreasInclude">Include</label>
+                              <div>
+                                <div class="span12 filter-wrap">
+                                  <div class="input-group span12">
+                                    <input type="text" class="form-control span11" id="AreasInclude">
+                                      <span class="input-group-btn span1 inbuilt-btn">
+                                        <button class="btn btn-default" type="button">&nbsp;</button>
+                                      </span>
+                                  </div>
+                                  <div class="includeFilterResult">
+                                    <ul>
+                                      <li>Include Item1</li>
+                                      <li>Include Item2</li>
+                                      <li>Include Item3</li>
+                                      <li>Include Item4</li>
+                                      <li>Include Item5</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="uploaderArea clearFloat">
+                            <div class="span5">
+                              <label for="uploadCSV">Upload Areas by CSV</label>
+                              <div class="fileUploader">
+                                <a class='btn btn-inverse' href='javascript:;' style="right: 0; position: absolute;">
+                                  Browse...
+                                  <input type="file" id="uploadCSV" style='width: 82px; position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+                                </a>
+                                &nbsp;
+                                <span class='label label-info' id="upload-file-info"></span>
+                              </div>
+                            </div>
+                            <div class="span5 offset1">
+                              <div>
+                                <label for="recordList">Record in List</label>
+                                <div class="fileUploader">
+                                  <a class='btn btn-inverse' href='javascript:;' style="right: 0; position: absolute;">
+                                    Browse...
+                                    <input type="file" id="recordList" style='width: 82px; position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+                                  </a>
+                                  &nbsp;
+                                  <span class='label label-info' id="upload-file-info"></span>
+                                </div>
+                              </div>
+                              <div>
+                                <label for="validRecords">Valid Records</label>
+                                <div class="fileUploader">
+                                  <a class='btn btn-inverse' href='javascript:;' style="right: 0; position: absolute;">
+                                    Browse...
+                                    <input type="file" id="validRecords" style='width: 82px; position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+                                  </a>
+                                  &nbsp;
+                                  <span class='label label-info' id="upload-file-info"></span>
+                                </div>
+                              </div>
+                              <div>
+                                <label for="invalidRecords">Invalid Records</label>
+                                <div class="fileUploader">
+                                  <a class='btn btn-inverse' href='javascript:;' style="right: 0; position: absolute;">
+                                    Browse...
+                                    <input type="file" id="invalidRecords" style='width: 82px; position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+                                  </a>
+                                  &nbsp;
+                                  <span class='label label-info' id="upload-file-info"></span>
+                                </div>
+                              </div>
+                              <div class="clearListWrap">
+                                <input type="button" class="btn btn-inverse span12" value="Clear List"/>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </fieldset>
+                    </form>
+                  </div>
+                </div>
+                <div class="tab-pane" id="2ADC">
+                  <div class="fieldset span12">
+                    <form>
+                      <fieldset>
+                        <legend>
+                          <input type="checkbox" class="control" id="control6"/>
+                          <label for="control6" class="controlLabel">All Carded Players</label>
+                        </legend>
+                        <div class="span10 offset1">
+                          <h6>Positions</h6>
+                          <div class="clearFloat">
+                            <div class="span5">
+                              <label for="AreasExclude">Exclude</label>
+                              <div>
+                                <div class="span12 filter-wrap">
+                                  <div class="input-group span12">
+                                    <input type="text" class="form-control span11" id="AreasExclude">
+                                      <span class="input-group-btn span1 inbuilt-btn">
+                                        <button class="btn btn-default" type="button">&nbsp;</button>
+                                      </span>
+                                  </div>
+                                  <div class="excludeFilterResult">
+                                    <ul>
+                                      <li>Exclude Item1</li>
+                                      <li>Exclude Item2</li>
+                                      <li>Exclude Item3</li>
+                                      <li>Exclude Item4</li>
+                                      <li>Exclude Item5</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="span1">
+                              <div class="filterControls">
+                                <button class="filterNext">&nbsp;</button>
+                                <button class="filterNextAll">&nbsp;</button>
+                                <button class="filterPrevAll"></button>
+                                <button class="filterPrev"></button>
+                              </div>
+                            </div>
+                            <div class="span5">
+                              <label for="AreasInclude">Include</label>
+                              <div>
+                                <div class="span12 filter-wrap">
+                                  <div class="input-group span12">
+                                    <input type="text" class="form-control span11" id="AreasInclude">
+                                      <span class="input-group-btn span1 inbuilt-btn">
+                                        <button class="btn btn-default" type="button">&nbsp;</button>
+                                      </span>
+                                  </div>
+                                  <div class="includeFilterResult">
+                                    <ul>
+                                      <li>Include Item1</li>
+                                      <li>Include Item2</li>
+                                      <li>Include Item3</li>
+                                      <li>Include Item4</li>
+                                      <li>Include Item5</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="uploaderArea clearFloat">
+                            <div class="span5">
+                              <label for="uploadCSV">Upload Areas by CSV</label>
+                              <div class="fileUploader">
+                                <a class='btn btn-inverse' href='javascript:;' style="right: 0; position: absolute;">
+                                  Browse...
+                                  <input type="file" id="uploadCSV" style='width: 82px; position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+                                </a>
+                                &nbsp;
+                                <span class='label label-info' id="upload-file-info"></span>
+                              </div>
+                            </div>
+                            <div class="span5 offset1">
+                              <div>
+                                <label for="recordList">Record in List</label>
+                                <div class="fileUploader">
+                                  <a class='btn btn-inverse' href='javascript:;' style="right: 0; position: absolute;">
+                                    Browse...
+                                    <input type="file" id="recordList" style='width: 82px; position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+                                  </a>
+                                  &nbsp;
+                                  <span class='label label-info' id="upload-file-info"></span>
+                                </div>
+                              </div>
+                              <div>
+                                <label for="validRecords">Valid Records</label>
+                                <div class="fileUploader">
+                                  <a class='btn btn-inverse' href='javascript:;' style="right: 0; position: absolute;">
+                                    Browse...
+                                    <input type="file" id="validRecords" style='width: 82px; position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+                                  </a>
+                                  &nbsp;
+                                  <span class='label label-info' id="upload-file-info"></span>
+                                </div>
+                              </div>
+                              <div>
+                                <label for="invalidRecords">Invalid Records</label>
+                                <div class="fileUploader">
+                                  <a class='btn btn-inverse' href='javascript:;' style="right: 0; position: absolute;">
+                                    Browse...
+                                    <input type="file" id="invalidRecords" style='width: 82px; position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+                                  </a>
+                                  &nbsp;
+                                  <span class='label label-info' id="upload-file-info"></span>
+                                </div>
+                              </div>
+                              <div class="clearListWrap">
+                                <input type="button" class="btn btn-inverse span12" value="Clear List"/>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </fieldset>
+                    </form>
+                  </div>
+                </div>
+                <div id="2AEA" class="tab-pane">
+                  <div class="fieldset span12">
+                    <form>
+                      <fieldset>
+                        <legend>
+                          <input type="checkbox" class="control" id="control6"/>
+                          <label for="control6" class="controlLabel">All Tiers</label>
+                        </legend>
+                        <div class="span10 offset1">
+                          <h6>Tiers</h6>
+                          <div class="clearFloat">
+                            <div class="span5">
+                              <label for="AreasExclude">Exclude</label>
+                              <div>
+                                <div class="span12 filter-wrap">
+                                  <div class="input-group span12">
+                                    <input type="text" class="form-control span11" id="AreasExclude">
+                                      <span class="input-group-btn span1 inbuilt-btn">
+                                        <button class="btn btn-default" type="button">&nbsp;</button>
+                                      </span>
+                                  </div>
+                                  <div class="excludeFilterResult">
+                                    <ul>
+                                      <li>Exclude Item1</li>
+                                      <li>Exclude Item2</li>
+                                      <li>Exclude Item3</li>
+                                      <li>Exclude Item4</li>
+                                      <li>Exclude Item5</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="span1">
+                              <div class="filterControls">
+                                <button class="filterNext">&nbsp;</button>
+                                <button class="filterNextAll">&nbsp;</button>
+                                <button class="filterPrevAll"></button>
+                                <button class="filterPrev"></button>
+                              </div>
+                            </div>
+                            <div class="span5">
+                              <label for="AreasInclude">Include</label>
+                              <div>
+                                <div class="span12 filter-wrap">
+                                  <div class="input-group span12">
+                                    <input type="text" class="form-control span11" id="AreasInclude">
+                                      <span class="input-group-btn span1 inbuilt-btn">
+                                        <button class="btn btn-default" type="button">&nbsp;</button>
+                                      </span>
+                                  </div>
+                                  <div class="includeFilterResult">
+                                    <ul>
+                                      <li>Include Item1</li>
+                                      <li>Include Item2</li>
+                                      <li>Include Item3</li>
+                                      <li>Include Item4</li>
+                                      <li>Include Item5</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="uploaderArea clearFloat">
+                            <div class="span5">
+                              <label for="uploadCSV">Upload Areas by CSV</label>
+                              <div class="fileUploader">
+                                <a class='btn btn-inverse' href='javascript:;' style="right: 0; position: absolute;">
+                                  Browse...
+                                  <input type="file" id="uploadCSV" style='width: 82px; position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+                                </a>
+                                &nbsp;
+                                <span class='label label-info' id="upload-file-info"></span>
+                              </div>
+                            </div>
+                            <div class="span5 offset1">
+                              <div>
+                                <label for="recordList">Record in List</label>
+                                <div class="fileUploader">
+                                  <a class='btn btn-inverse' href='javascript:;' style="right: 0; position: absolute;">
+                                    Browse...
+                                    <input type="file" id="recordList" style='width: 82px; position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+                                  </a>
+                                  &nbsp;
+                                  <span class='label label-info' id="upload-file-info"></span>
+                                </div>
+                              </div>
+                              <div>
+                                <label for="validRecords">Valid Records</label>
+                                <div class="fileUploader">
+                                  <a class='btn btn-inverse' href='javascript:;' style="right: 0; position: absolute;">
+                                    Browse...
+                                    <input type="file" id="validRecords" style='width: 82px; position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+                                  </a>
+                                  &nbsp;
+                                  <span class='label label-info' id="upload-file-info"></span>
+                                </div>
+                              </div>
+                              <div>
+                                <label for="invalidRecords">Invalid Records</label>
+                                <div class="fileUploader">
+                                  <a class='btn btn-inverse' href='javascript:;' style="right: 0; position: absolute;">
+                                    Browse...
+                                    <input type="file" id="invalidRecords" style='width: 82px; position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+                                  </a>
+                                  &nbsp;
+                                  <span class='label label-info' id="upload-file-info"></span>
+                                </div>
+                              </div>
+                              <div class="clearListWrap">
+                                <input type="button" class="btn btn-inverse span12" value="Clear List"/>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </fieldset>
+                    </form>
+                  </div>
+                </div>
+                <div id="2AEB" class="tab-pane">
+                  <div class="fieldset span12">
+                    <form>
+                      <fieldset>
+                        <legend>
+                          <input type="checkbox" class="control" id="control6"/>
+                          <label for="control6" class="controlLabel">All Players</label>
+                        </legend>
+                        <div class="span10 offset1">
+                          <h6>Players</h6>
+                          <div class="clearFloat">
+                            <div class="span5">
+                              <label for="AreasExclude">Exclude</label>
+                              <div>
+                                <div class="span12 filter-wrap">
+                                  <div class="input-group span12">
+                                    <input type="text" class="form-control span11" id="AreasExclude">
+                                      <span class="input-group-btn span1 inbuilt-btn">
+                                        <button class="btn btn-default" type="button">&nbsp;</button>
+                                      </span>
+                                  </div>
+                                  <div class="excludeFilterResult">
+                                    <ul>
+                                      <li>Exclude Item1</li>
+                                      <li>Exclude Item2</li>
+                                      <li>Exclude Item3</li>
+                                      <li>Exclude Item4</li>
+                                      <li>Exclude Item5</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="span1">
+                              <div class="filterControls">
+                                <button class="filterNext">&nbsp;</button>
+                                <button class="filterNextAll">&nbsp;</button>
+                                <button class="filterPrevAll"></button>
+                                <button class="filterPrev"></button>
+                              </div>
+                            </div>
+                            <div class="span5">
+                              <label for="AreasInclude">Include</label>
+                              <div>
+                                <div class="span12 filter-wrap">
+                                  <div class="input-group span12">
+                                    <input type="text" class="form-control span11" id="AreasInclude">
+                                      <span class="input-group-btn span1 inbuilt-btn">
+                                        <button class="btn btn-default" type="button">&nbsp;</button>
+                                      </span>
+                                  </div>
+                                  <div class="includeFilterResult">
+                                    <ul>
+                                      <li>Include Item1</li>
+                                      <li>Include Item2</li>
+                                      <li>Include Item3</li>
+                                      <li>Include Item4</li>
+                                      <li>Include Item5</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="uploaderArea clearFloat">
+                            <div class="span5">
+                              <label for="uploadCSV">Upload Areas by CSV</label>
+                              <div class="fileUploader">
+                                <a class='btn btn-inverse' href='javascript:;' style="right: 0; position: absolute;">
+                                  Browse...
+                                  <input type="file" id="uploadCSV" style='width: 82px; position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+                                </a>
+                                &nbsp;
+                                <span class='label label-info' id="upload-file-info"></span>
+                              </div>
+                            </div>
+                            <div class="span5 offset1">
+                              <div>
+                                <label for="recordList">Record in List</label>
+                                <div class="fileUploader">
+                                  <a class='btn btn-inverse' href='javascript:;' style="right: 0; position: absolute;">
+                                    Browse...
+                                    <input type="file" id="recordList" style='width: 82px; position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+                                  </a>
+                                  &nbsp;
+                                  <span class='label label-info' id="upload-file-info"></span>
+                                </div>
+                              </div>
+                              <div>
+                                <label for="validRecords">Valid Records</label>
+                                <div class="fileUploader">
+                                  <a class='btn btn-inverse' href='javascript:;' style="right: 0; position: absolute;">
+                                    Browse...
+                                    <input type="file" id="validRecords" style='width: 82px; position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+                                  </a>
+                                  &nbsp;
+                                  <span class='label label-info' id="upload-file-info"></span>
+                                </div>
+                              </div>
+                              <div>
+                                <label for="invalidRecords">Invalid Records</label>
+                                <div class="fileUploader">
+                                  <a class='btn btn-inverse' href='javascript:;' style="right: 0; position: absolute;">
+                                    Browse...
+                                    <input type="file" id="invalidRecords" style='width: 82px; position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+                                  </a>
+                                  &nbsp;
+                                  <span class='label label-info' id="upload-file-info"></span>
+                                </div>
+                              </div>
+                              <div class="clearListWrap">
+                                <input type="button" class="btn btn-inverse span12" value="Clear List"/>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </fieldset>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="span12 btn-wrap btn-wrap2">
+                <div class="span4 results-control">save</div>
+                <div class="span4 results-control">cancel</div>
+                <div class="span4 results-control">delete</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="2B" class="tab-pane">
+          <div class="span3 awardBuilderArea">
+            <div class="span12">
+              <h4>adPression Event</h4>
+            </div>
+            <div>
+              <div class="span12 minHeight20">
+                <div class="span6 minHeight20">
+                  <label>Event</label>
+                </div>
+                <div class="span6 minHeight20">
+                  <button class="btn addButton">Add</button>
+                </div>
+              </div>
+              <div class="span12 filter-wrap">
+                <div class="input-group span12">
+                  <input type="text" class="form-control span11">
+                  <span class="input-group-btn span1 inbuilt-btn">
+                    <button type="button" class="btn btn-default">&nbsp;</button>
+                  </span>
+                </div>
+              </div>
+              <div class="span12 filterOptions">
+                <select name="prizes" id="prizes" class="span12 selectBox">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+              </div>
+              <div class="span12 results">
+                <div class="span12 btn-wrap">
+                  <a href="#" class="results-control span4">active</a>
+                  <a href="#" class="results-control span4">inactive</a>
+                  <a href="#" class="results-control span4">all</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="span9 awardDetailsArea">
+            <div class="span12">
+              <h4>adPression Event Details</h4>
+              <div class="tabbable span12">
+                <ul class="nav-pills tNav">
+                  <li class="navSpan3 active"><a data-toggle="tab" href="#2BA">Event Details</a></li>
+                  <li class="navSpan3 locationNavParent">
+                    <a data-toggle="tab" href="#2BB">Schedule</a>
+                    <div class="locationNav locationNav3 tabbable">
+                      <ul class="tNav nav-pills">
+                        <li class="navSpan2 active">
+                          <a href="#2BB" data-toggle="tab">Tiers</a>
+                        </li>
+                        <li class="navSpan2">
+                          <a href="#2BBA" data-toggle="tab">List</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="navSpan3"><a data-toggle="tab" href="#2BC">Population</a></li>
+                </ul>
+              </div>
+              <div class="tab-content tabConNext span12">
+                <div id="2BA" class="tab-pane active">
+                  <div class="span12">
+                    <div class="span4">
+                      <label for="selectEvent">adPression Event</label>
+                      <select name="selectEvent" id="selectEvent">
+                        <option value="Non-Usage of Application">Non-Usage of Application</option>
+                        <option value="Usage of Application">Usage of Application</option>
+                      </select>
+                      <label for="selectEventType">Event Type</label>
+                      <select name="selectEventType" id="selectEventType">
+                        <option value="type 1">type 1</option>
+                        <option value="type 2">type 2</option>
+                        <option value="type 3">type 3</option>
+                      </select>
+                      <label for="selectMediaAssets">Media Asset</label>
+                      <select name="selectMediaAssets" id="selectMediaAssets">
+                        <option value="media 1">media 1</option>
+                        <option value="media 2">media 2</option>
+                        <option value="media 3">media 3</option>
+                        <option value="media 4">media 4</option>
+                      </select>
+                      <label for="selectAwardPoints">Award Points</label>
+                      <select name="selectAwardPoints" id="selectAwardPoints">
+                        <option value="point 1">point1</option>
+                        <option value="point 2">point2</option>
+                        <option value="point 3">point3</option>
+                        <option value="point 4">point4</option>
+                        <option value="point 5">point5</option>
+                      </select>
+                      <label for="selectMaximumTrigger">Maximum Triggers per Day</label>
+                      <input type="text" id="selectMaximumTrigger"/>
+                      <label for="maxAverage">Maximum Event Awards per Player</label>
+                      <label for="maxAverageCount">Count</label>
+                      <input type="text" id="maxAverageCount" class="span8"/>
+                      <label for="selectPeriod">Period</label>
+                      <select name="selectPeriod" id="selectPeriod">
+                        <option value="Sunday">Sunday</option>
+                        <option value="Sunday">Monday</option>
+                        <option value="Sunday">Tuesday</option>
+                        <option value="Sunday">Wednesday</option>
+                        <option value="Sunday">Thursday</option>
+                        <option value="Sunday">Friday</option>
+                        <option value="Sunday">Saturday</option>
+                      </select>
+                    </div>
+                    <div class="span8">
+                      <div class="span12">
+                        <label>Media Preview</label>
+                        Space for Video
+                      </div>
+                    </div>
+                    <div class="span12 margin0">
+                      <label for="eventAppMessaging">Event In-App Messaging</label>
+                      <input type="text" id="eventAppMessaging" class="span12"/>
+                    </div>
+                  </div>
+                </div>
+                <div id="2BB" class="tab-pane">
+                  <div class="fieldset span12">
+                    <form>
+                      <fieldset>
+                        <legend>
+                          <input type="checkbox" id="control7" class="control">
+                          <label class="controlLabel" for="control7">All Tiers</label>
+                        </legend>
+                        <div class="span10 offset1">
+                          <h6>Tiers</h6>
+                          <div class="clearFloat">
+                            <div class="span5">
+                              <label for="AreasExclude">Exclude</label>
+                              <div>
+                                <div class="span12 filter-wrap">
+                                  <div class="input-group span12">
+                                    <input type="text" class="form-control span11" id="AreasExclude">
+                                      <span class="input-group-btn span1 inbuilt-btn">
+                                        <button class="btn btn-default" type="button">&nbsp;</button>
+                                      </span>
+                                  </div>
+                                  <div class="excludeFilterResult">
+                                    <ul>
+                                      <li>Exclude Item1</li>
+                                      <li>Exclude Item2</li>
+                                      <li>Exclude Item3</li>
+                                      <li>Exclude Item4</li>
+                                      <li>Exclude Item5</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="span1">
+                              <div class="filterControls">
+                                <button class="filterNext">&nbsp;</button>
+                                <button class="filterNextAll">&nbsp;</button>
+                                <button class="filterPrevAll"></button>
+                                <button class="filterPrev"></button>
+                              </div>
+                            </div>
+                            <div class="span5">
+                              <label for="AreasInclude">Include</label>
+                              <div>
+                                <div class="span12 filter-wrap">
+                                  <div class="input-group span12">
+                                    <input type="text" class="form-control span11" id="AreasInclude">
+                                      <span class="input-group-btn span1 inbuilt-btn">
+                                        <button class="btn btn-default" type="button">&nbsp;</button>
+                                      </span>
+                                  </div>
+                                  <div class="includeFilterResult">
+                                    <ul>
+                                      <li>Include Item1</li>
+                                      <li>Include Item2</li>
+                                      <li>Include Item3</li>
+                                      <li>Include Item4</li>
+                                      <li>Include Item5</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="uploaderArea clearFloat">
+                            <div class="span5">
+                              <label for="uploadCSV">Upload Areas by CSV</label>
+                              <div class="fileUploader">
+                                <a class='btn btn-inverse' href='javascript:;' style="right: 0; position: absolute;">
+                                  Browse...
+                                  <input type="file" id="uploadCSV" style='width: 82px; position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+                                </a>
+                                &nbsp;
+                                <span class='label label-info' id="upload-file-info"></span>
+                              </div>
+                            </div>
+                            <div class="span5 offset1">
+                              <div>
+                                <label for="recordList">Record in List</label>
+                                <div class="fileUploader">
+                                  <a class='btn btn-inverse' href='javascript:;' style="right: 0; position: absolute;">
+                                    Browse...
+                                    <input type="file" id="recordList" style='width: 82px; position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+                                  </a>
+                                  &nbsp;
+                                  <span class='label label-info' id="upload-file-info"></span>
+                                </div>
+                              </div>
+                              <div>
+                                <label for="validRecords">Valid Records</label>
+                                <div class="fileUploader">
+                                  <a class='btn btn-inverse' href='javascript:;' style="right: 0; position: absolute;">
+                                    Browse...
+                                    <input type="file" id="validRecords" style='width: 82px; position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+                                  </a>
+                                  &nbsp;
+                                  <span class='label label-info' id="upload-file-info"></span>
+                                </div>
+                              </div>
+                              <div>
+                                <label for="invalidRecords">Invalid Records</label>
+                                <div class="fileUploader">
+                                  <a class='btn btn-inverse' href='javascript:;' style="right: 0; position: absolute;">
+                                    Browse...
+                                    <input type="file" id="invalidRecords" style='width: 82px; position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+                                  </a>
+                                  &nbsp;
+                                  <span class='label label-info' id="upload-file-info"></span>
+                                </div>
+                              </div>
+                              <div class="clearListWrap">
+                                <input type="button" class="btn btn-inverse span12" value="Clear List"/>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </fieldset>
+                    </form>
+                  </div>
+                </div>
+                <div id="2BBA" class="tab-pane">
+                  <div class="fieldset span12">
+                    <form>
+                      <fieldset>
+                        <legend>
+                          <input type="checkbox" id="control7" class="control">
+                          <label class="controlLabel" for="control7">All Players</label>
+                        </legend>
+                        <div class="span10 offset1">
+                          <h6>Players</h6>
+                          <div class="clearFloat">
+                            <div class="span5">
+                              <label for="AreasExclude">Exclude</label>
+                              <div>
+                                <div class="span12 filter-wrap">
+                                  <div class="input-group span12">
+                                    <input type="text" class="form-control span11" id="AreasExclude">
+                                      <span class="input-group-btn span1 inbuilt-btn">
+                                        <button class="btn btn-default" type="button">&nbsp;</button>
+                                      </span>
+                                  </div>
+                                  <div class="excludeFilterResult">
+                                    <ul>
+                                      <li>Exclude Item1</li>
+                                      <li>Exclude Item2</li>
+                                      <li>Exclude Item3</li>
+                                      <li>Exclude Item4</li>
+                                      <li>Exclude Item5</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="span1">
+                              <div class="filterControls">
+                                <button class="filterNext">&nbsp;</button>
+                                <button class="filterNextAll">&nbsp;</button>
+                                <button class="filterPrevAll"></button>
+                                <button class="filterPrev"></button>
+                              </div>
+                            </div>
+                            <div class="span5">
+                              <label for="AreasInclude">Include</label>
+                              <div>
+                                <div class="span12 filter-wrap">
+                                  <div class="input-group span12">
+                                    <input type="text" class="form-control span11" id="AreasInclude">
+                                      <span class="input-group-btn span1 inbuilt-btn">
+                                        <button class="btn btn-default" type="button">&nbsp;</button>
+                                      </span>
+                                  </div>
+                                  <div class="includeFilterResult">
+                                    <ul>
+                                      <li>Include Item1</li>
+                                      <li>Include Item2</li>
+                                      <li>Include Item3</li>
+                                      <li>Include Item4</li>
+                                      <li>Include Item5</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="uploaderArea clearFloat">
+                            <div class="span5">
+                              <label for="uploadCSV">Upload Areas by CSV</label>
+                              <div class="fileUploader">
+                                <a class='btn btn-inverse' href='javascript:;' style="right: 0; position: absolute;">
+                                  Browse...
+                                  <input type="file" id="uploadCSV" style='width: 82px; position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+                                </a>
+                                &nbsp;
+                                <span class='label label-info' id="upload-file-info"></span>
+                              </div>
+                            </div>
+                            <div class="span5 offset1">
+                              <div>
+                                <label for="recordList">Record in List</label>
+                                <div class="fileUploader">
+                                  <a class='btn btn-inverse' href='javascript:;' style="right: 0; position: absolute;">
+                                    Browse...
+                                    <input type="file" id="recordList" style='width: 82px; position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+                                  </a>
+                                  &nbsp;
+                                  <span class='label label-info' id="upload-file-info"></span>
+                                </div>
+                              </div>
+                              <div>
+                                <label for="validRecords">Valid Records</label>
+                                <div class="fileUploader">
+                                  <a class='btn btn-inverse' href='javascript:;' style="right: 0; position: absolute;">
+                                    Browse...
+                                    <input type="file" id="validRecords" style='width: 82px; position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+                                  </a>
+                                  &nbsp;
+                                  <span class='label label-info' id="upload-file-info"></span>
+                                </div>
+                              </div>
+                              <div>
+                                <label for="invalidRecords">Invalid Records</label>
+                                <div class="fileUploader">
+                                  <a class='btn btn-inverse' href='javascript:;' style="right: 0; position: absolute;">
+                                    Browse...
+                                    <input type="file" id="invalidRecords" style='width: 82px; position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+                                  </a>
+                                  &nbsp;
+                                  <span class='label label-info' id="upload-file-info"></span>
+                                </div>
+                              </div>
+                              <div class="clearListWrap">
+                                <input type="button" class="btn btn-inverse span12" value="Clear List"/>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </fieldset>
+                    </form>
+                  </div>
+                </div>
+                <div id="2BC" class="tab-pane">Population</div>
+              </div>
+            </div>
+            <div class="span12 btn-wrap btn-wrap2">
+              <div class="span4 results-control">save</div>
+              <div class="span4 results-control">cancel</div>
+              <div class="span4 results-control">delete</div>
+            </div>
+          </div>
+        </div>
+        <div id="2C" class="tab-pane">
+        <div class="span3 awardBuilderArea">
+          <div class="span12">
+            <h4>Refer a Friend</h4>
+          </div>
+          <div>
+            <div class="span12 minHeight20">
+              <div class="span6 minHeight20">
+                <label>Event</label>
+              </div>
+              <div class="span6 minHeight20">
+                <button class="btn addButton">Add</button>
+              </div>
+            </div>
+            <div class="span12 filter-wrap">
+              <div class="input-group span12">
+                <input type="text" class="form-control span11">
+                  <span class="input-group-btn span1 inbuilt-btn">
+                    <button type="button" class="btn btn-default">&nbsp;</button>
+                  </span>
+              </div>
+            </div>
+            <div class="span12 filterOptions">
+              <select name="prizes" id="prizes" class="span12 selectBox">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </div>
+            <div class="span12 results">
+              <div class="span12 btn-wrap">
+                <a href="#" class="results-control span4">active</a>
+                <a href="#" class="results-control span4">inactive</a>
+                <a href="#" class="results-control span4">all</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="span9 awardDetailsArea">
+        <div class="span12">
+        <h4>Refer a Friend Detail</h4>
+        <div class="tabbable span12">
+          <ul class="nav-pills tNav">
+            <li class="navSpan3 locationNavParent active">
+              <a data-toggle="tab" href="#2CCA">Event Details</a>
+              <div class="locationNav locationNav4 tabbable">
+                <ul class="tNav nav-pills">
+                  <li class="navSpan2">
+                    <a href="#2CCAA" data-toggle="tab">Tiers</a>
+                  </li>
+                  <li class="navSpan2">
+                    <a href="#2CCAB" data-toggle="tab">List</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="navSpan3"><a data-toggle="tab" href="#2CCB">Schedule</a></li>
+            <li class="navSpan3"><a data-toggle="tab" href="#2CCC">Population</a></li>
+          </ul>
+        </div>
+        <div class="tab-content tabConNext span12">
+        <div id="2CCA" class="tab-pane active">
+        <div class="span12">
+        <div class="span4">
+          <div>
+            <div class="span12 minHeight20">
+              <div class="span6 minHeight20">
+                <label class="offset2">Schedule</label>
+              </div>
+              <div class="span6 minHeight20">
+                <button class="btn addButton">Add</button>
+              </div>
+            </div>
+            <div class="span12 filter-wrap">
+              <div class="input-group span12">
+                <input type="text" class="form-control span11">
+                <span class="input-group-btn span1 inbuilt-btn"><button type="button" class="btn btn-default">&nbsp;</button></span>
+              </div>
+            </div>
+            <div class="span12 results">
+              <div class="span12 btn-wrap">
+                <a href="#" class="results-control span4">active</a>
+                <a href="#" class="results-control span4">inactive</a>
+                <a href="#" class="results-control span4">all</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="span8">
+        <div>
+          <label for="scheduleName">Schedule Name</label>
+          <input type="text" id="scheduleName" class="span12" placeholder="Mon-Thu from 9A-3P"/>
+        </div>
+        <div>
+          <form class="barcode fieldset">
+            <fieldset>
+              <legend>
+                <input type="checkbox" class="control" id="control4"><label class="controlLabel noCheck" for="control4">Schedule</label>
+              </legend>
+              <div>
+                <div class="span3">
+                </div>
+                <div class="span8 noIndent">
+                  <div class="span6">
+                    <div>
+                      <div class="span3">
+                        <label class="fakeDatepicker" for="datepicker01">From</label>
+                      </div>
+                      <div class="span9">
+                        <div data-date-format="dd-mm-yyyy" data-date="" id="datepicker01" class="input-append date">
+                          <input type="text" value="12-02-2012" size="16" class="span9">
+                          <span class="add-on"><i class="icon-calendar"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="span3">
+                        <label class="fakeDatepicker" for="datepicker02">To</label>
+                      </div>
+                      <div class="span9">
+                        <div data-date-format="dd-mm-yyyy" data-date="" id="datepicker02" class="input-append date">
+                          <input type="text" value="12-02-2012" size="16" class="span9">
+                          <span class="add-on"><i class="icon-calendar"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="span6">
+                    <div>
+                      <div class="span2 offset1">
+                        <label class="timepicker" for="timepicker03">At</label>
+                      </div>
+                      <div class="span9">
+                        <div class="input-append bootstrap-timepicker">
+                          <input type="text" class="input-small span9" id="timepicker03">
+                          <span class="add-on"><i class="icon-time"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="span2 offset1">
+                        <label class="timepicker" for="timepicker04">At</label>
+                      </div>
+                      <div class="span9">
+                        <div class="input-append bootstrap-timepicker">
+                          <input type="text" class="input-small span9" id="timepicker04">
+                          <span class="add-on"><i class="icon-time"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+        <div>
+          <form class="barcode fieldset">
+            <fieldset>
+              <legend>
+                <input type="checkbox" class="control" id="control9"><label class="controlLabel" for="control9">Schedule by Day of Week</label>
+              </legend>
+              <div class="controlContent noIndent">
+                <div class="span3 no-padding">
+                  <div class="timepicker">
+                    <input type="checkbox" id="scheduleByMon" name="scheduleBy" disabled>
+                    <label for="scheduleByMon">Monday</label>
+                  </div>
+                  <div class="timepicker">
+                    <input type="checkbox" id="scheduleByTue" name="scheduleBy" disabled>
+                    <label for="scheduleByTue">Tuesday</label>
+                  </div>
+                  <div class="timepicker">
+                    <input type="checkbox" id="scheduleByWed" name="scheduleBy" disabled>
+                    <label for="scheduleByWed">Wednesday</label>
+                  </div>
+                  <div class="timepicker">
+                    <input type="checkbox" id="scheduleByThu" name="scheduleBy" disabled>
+                    <label for="scheduleByThu">Thursday</label>
+                  </div>
+                  <div class="timepicker">
+                    <input type="checkbox" id="scheduleByFri" name="scheduleBy" disabled>
+                    <label for="scheduleByFri">Friday</label>
+                  </div>
+                  <div class="timepicker">
+                    <input type="checkbox" id="scheduleBySat" name="scheduleBy" disabled>
+                    <label for="scheduleBySat">Saturday</label>
+                  </div>
+                  <div class="timepicker">
+                    <input type="checkbox" id="scheduleBySun" name="scheduleBy" disabled>
+                    <label for="scheduleBySun">Sunday</label>
+                  </div>
+                </div>
+                <div class="span8 no-padding">
+                  <div class="span6">
+                    <div>
+                      <div class="span3">
+                        <label for="fromTime8" class="timepicker">From</label>
+                      </div>
+                      <div class="span9">
+                        <div class="input-append bootstrap-timepicker">
+                          <input id="fromTime8" type="text" class="input-small span9" disabled>
+                          <span class="add-on"><i class="icon-time"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="span3">
+                        <label for="fromTime9" class="timepicker">From</label>
+                      </div>
+                      <div class="span9">
+                        <div class="input-append bootstrap-timepicker">
+                          <input id="fromTime9" type="text" class="input-small span9" disabled>
+                          <span class="add-on"><i class="icon-time"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="span3">
+                        <label for="fromTime10" class="timepicker">From</label>
+                      </div>
+                      <div class="span9">
+                        <div class="input-append bootstrap-timepicker">
+                          <input id="fromTime10" type="text" class="input-small span9" disabled>
+                          <span class="add-on"><i class="icon-time"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="span3">
+                        <label for="fromTime11" class="timepicker">From</label>
+                      </div>
+                      <div class="span9">
+                        <div class="input-append bootstrap-timepicker">
+                          <input id="fromTime11" type="text" class="input-small span9" disabled>
+                          <span class="add-on"><i class="icon-time"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="span3">
+                        <label for="fromTime12" class="timepicker">From</label>
+                      </div>
+                      <div class="span9">
+                        <div class="input-append bootstrap-timepicker">
+                          <input id="fromTime12" type="text" class="input-small span9" disabled>
+                          <span class="add-on"><i class="icon-time"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="span3">
+                        <label for="fromTime13" class="timepicker">From</label>
+                      </div>
+                      <div class="span9">
+                        <div class="input-append bootstrap-timepicker">
+                          <input id="fromTime13" type="text" class="input-small span9" disabled>
+                          <span class="add-on"><i class="icon-time"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="span3">
+                        <label for="fromTime14" class="timepicker">From</label>
+                      </div>
+                      <div class="span9">
+                        <div class="input-append bootstrap-timepicker">
+                          <input id="fromTime14" type="text" class="input-small span9" disabled>
+                          <span class="add-on"><i class="icon-time"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="span6">
+                    <div>
+                      <div class="span2 offset1">
+                        <label for="toTime8" class="timepicker">To</label>
+                      </div>
+                      <div class="span9">
+                        <div class="input-append bootstrap-timepicker">
+                          <input id="toTime8" type="text" class="input-small span9" disabled>
+                          <span class="add-on"><i class="icon-time"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="span2 offset1">
+                        <label for="toTime9" class="timepicker">To</label>
+                      </div>
+                      <div class="span9">
+                        <div class="input-append bootstrap-timepicker">
+                          <input id="toTime9" type="text" class="input-small span9" disabled>
+                          <span class="add-on"><i class="icon-time"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="span2 offset1">
+                        <label for="toTime10" class="timepicker">To</label>
+                      </div>
+                      <div class="span9">
+                        <div class="input-append bootstrap-timepicker">
+                          <input id="toTime10" type="text" class="input-small span9" disabled>
+                          <span class="add-on"><i class="icon-time"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="span2 offset1">
+                        <label for="toTime11" class="timepicker">To</label>
+                      </div>
+                      <div class="span9">
+                        <div class="input-append bootstrap-timepicker">
+                          <input id="toTime11" type="text" class="input-small span9" disabled>
+                          <span class="add-on"><i class="icon-time"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="span2 offset1">
+                        <label for="toTime12" class="timepicker">To</label>
+                      </div>
+                      <div class="span9">
+                        <div class="input-append bootstrap-timepicker">
+                          <input id="toTime12" type="text" class="input-small span9" disabled>
+                          <span class="add-on"><i class="icon-time"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="span2 offset1">
+                        <label for="toTime13" class="timepicker">To</label>
+                      </div>
+                      <div class="span9">
+                        <div class="input-append bootstrap-timepicker">
+                          <input id="toTime13" type="text" class="input-small span9" disabled>
+                          <span class="add-on"><i class="icon-time"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="span2 offset1">
+                        <label for="toTime14" class="timepicker">To</label>
+                      </div>
+                      <div class="span9">
+                        <div class="input-append bootstrap-timepicker">
+                          <input id="toTime14" type="text" class="input-small span9" disabled>
+                          <span class="add-on"><i class="icon-time"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div id="2CCAA" class="tab-pane">
+          <div class="fieldset span12">
+            <form>
+              <fieldset>
+                <legend>
+                  <input type="checkbox" id="control7" class="control">
+                  <label class="controlLabel" for="control7">All Tiers</label>
+                </legend>
+                <div class="span10 offset1">
+                  <h6>Tiers</h6>
+                  <div class="clearFloat">
+                    <div class="span5">
+                      <label for="AreasExclude">Exclude</label>
+                      <div>
+                        <div class="span12 filter-wrap">
+                          <div class="input-group span12">
+                            <input type="text" class="form-control span11" id="AreasExclude">
+                            <span class="input-group-btn span1 inbuilt-btn">
+                              <button class="btn btn-default" type="button">&nbsp;</button>
+                            </span>
+                          </div>
+                          <div class="excludeFilterResult">
+                            <ul>
+                              <li>Exclude Item1</li>
+                              <li>Exclude Item2</li>
+                              <li>Exclude Item3</li>
+                              <li>Exclude Item4</li>
+                              <li>Exclude Item5</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="span1">
+                      <div class="filterControls">
+                        <button class="filterNext">&nbsp;</button>
+                        <button class="filterNextAll">&nbsp;</button>
+                        <button class="filterPrevAll"></button>
+                        <button class="filterPrev"></button>
+                      </div>
+                    </div>
+                    <div class="span5">
+                      <label for="AreasInclude">Include</label>
+                      <div>
+                        <div class="span12 filter-wrap">
+                          <div class="input-group span12">
+                            <input type="text" class="form-control span11" id="AreasInclude">
+                                      <span class="input-group-btn span1 inbuilt-btn">
+                                        <button class="btn btn-default" type="button">&nbsp;</button>
+                                      </span>
+                          </div>
+                          <div class="includeFilterResult">
+                            <ul>
+                              <li>Include Item1</li>
+                              <li>Include Item2</li>
+                              <li>Include Item3</li>
+                              <li>Include Item4</li>
+                              <li>Include Item5</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="uploaderArea clearFloat">
+                    <div class="span5">
+                      <label for="uploadCSV">Upload Areas by CSV</label>
+                      <div class="fileUploader">
+                        <a class='btn btn-inverse' href='javascript:;' style="right: 0; position: absolute;">
+                          Browse...
+                          <input type="file" id="uploadCSV" style='width: 82px; position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+                        </a>
+                        &nbsp;
+                        <span class='label label-info' id="upload-file-info"></span>
+                      </div>
+                    </div>
+                    <div class="span5 offset1">
+                      <div>
+                        <label for="recordList">Record in List</label>
+                        <div class="fileUploader">
+                          <a class='btn btn-inverse' href='javascript:;' style="right: 0; position: absolute;">
+                            Browse...
+                            <input type="file" id="recordList" style='width: 82px; position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+                          </a>
+                          &nbsp;
+                          <span class='label label-info' id="upload-file-info"></span>
+                        </div>
+                      </div>
+                      <div>
+                        <label for="validRecords">Valid Records</label>
+                        <div class="fileUploader">
+                          <a class='btn btn-inverse' href='javascript:;' style="right: 0; position: absolute;">
+                            Browse...
+                            <input type="file" id="validRecords" style='width: 82px; position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+                          </a>
+                          &nbsp;
+                          <span class='label label-info' id="upload-file-info"></span>
+                        </div>
+                      </div>
+                      <div>
+                        <label for="invalidRecords">Invalid Records</label>
+                        <div class="fileUploader">
+                          <a class='btn btn-inverse' href='javascript:;' style="right: 0; position: absolute;">
+                            Browse...
+                            <input type="file" id="invalidRecords" style='width: 82px; position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+                          </a>
+                          &nbsp;
+                          <span class='label label-info' id="upload-file-info"></span>
+                        </div>
+                      </div>
+                      <div class="clearListWrap">
+                        <input type="button" class="btn btn-inverse span12" value="Clear List"/>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+        <div id="2CCAB" class="tab-pane">
+          <div class="fieldset span12">
+            <form>
+              <fieldset>
+                <legend>
+                  <input type="checkbox" id="control7" class="control">
+                  <label class="controlLabel" for="control7">All Players</label>
+                </legend>
+                <div class="span10 offset1">
+                  <h6>Players</h6>
+                  <div class="clearFloat">
+                    <div class="span5">
+                      <label for="AreasExclude">Exclude</label>
+                      <div>
+                        <div class="span12 filter-wrap">
+                          <div class="input-group span12">
+                            <input type="text" class="form-control span11" id="AreasExclude">
+                                      <span class="input-group-btn span1 inbuilt-btn">
+                                        <button class="btn btn-default" type="button">&nbsp;</button>
+                                      </span>
+                          </div>
+                          <div class="excludeFilterResult">
+                            <ul>
+                              <li>Exclude Item1</li>
+                              <li>Exclude Item2</li>
+                              <li>Exclude Item3</li>
+                              <li>Exclude Item4</li>
+                              <li>Exclude Item5</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="span1">
+                      <div class="filterControls">
+                        <button class="filterNext">&nbsp;</button>
+                        <button class="filterNextAll">&nbsp;</button>
+                        <button class="filterPrevAll"></button>
+                        <button class="filterPrev"></button>
+                      </div>
+                    </div>
+                    <div class="span5">
+                      <label for="AreasInclude">Include</label>
+                      <div>
+                        <div class="span12 filter-wrap">
+                          <div class="input-group span12">
+                            <input type="text" class="form-control span11" id="AreasInclude">
+                                      <span class="input-group-btn span1 inbuilt-btn">
+                                        <button class="btn btn-default" type="button">&nbsp;</button>
+                                      </span>
+                          </div>
+                          <div class="includeFilterResult">
+                            <ul>
+                              <li>Include Item1</li>
+                              <li>Include Item2</li>
+                              <li>Include Item3</li>
+                              <li>Include Item4</li>
+                              <li>Include Item5</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="uploaderArea clearFloat">
+                    <div class="span5">
+                      <label for="uploadCSV">Upload Areas by CSV</label>
+                      <div class="fileUploader">
+                        <a class='btn btn-inverse' href='javascript:;' style="right: 0; position: absolute;">
+                          Browse...
+                          <input type="file" id="uploadCSV" style='width: 82px; position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+                        </a>
+                        &nbsp;
+                        <span class='label label-info' id="upload-file-info"></span>
+                      </div>
+                    </div>
+                    <div class="span5 offset1">
+                      <div>
+                        <label for="recordList">Record in List</label>
+                        <div class="fileUploader">
+                          <a class='btn btn-inverse' href='javascript:;' style="right: 0; position: absolute;">
+                            Browse...
+                            <input type="file" id="recordList" style='width: 82px; position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+                          </a>
+                          &nbsp;
+                          <span class='label label-info' id="upload-file-info"></span>
+                        </div>
+                      </div>
+                      <div>
+                        <label for="validRecords">Valid Records</label>
+                        <div class="fileUploader">
+                          <a class='btn btn-inverse' href='javascript:;' style="right: 0; position: absolute;">
+                            Browse...
+                            <input type="file" id="validRecords" style='width: 82px; position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+                          </a>
+                          &nbsp;
+                          <span class='label label-info' id="upload-file-info"></span>
+                        </div>
+                      </div>
+                      <div>
+                        <label for="invalidRecords">Invalid Records</label>
+                        <div class="fileUploader">
+                          <a class='btn btn-inverse' href='javascript:;' style="right: 0; position: absolute;">
+                            Browse...
+                            <input type="file" id="invalidRecords" style='width: 82px; position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+                          </a>
+                          &nbsp;
+                          <span class='label label-info' id="upload-file-info"></span>
+                        </div>
+                      </div>
+                      <div class="clearListWrap">
+                        <input type="button" class="btn btn-inverse span12" value="Clear List"/>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+        <div id="2BC" class="tab-pane">Population</div>
+        </div>
+        </div>
+        <div class="span12 btn-wrap btn-wrap2">
+          <div class="span4 results-control">save</div>
+          <div class="span4 results-control">cancel</div>
+          <div class="span4 results-control">delete</div>
+        </div>
+        </div>
+        </div>
+        <div id="2D" class="tab-pane">
+          <div class="span3 awardBuilderArea">
+            <div class="span12">
+              <h4>Map Management</h4>
+            </div>
+            <div>
+              <div class="span12 minHeight20">
+                <div class="span6 minHeight20">
+                  <label>Map</label>
+                </div>
+                <div class="span6 minHeight20">
+                  <button class="btn addButton">Add</button>
+                </div>
+              </div>
+              <div class="span12 filter-wrap">
+                <div class="input-group span12">
+                  <input type="text" class="form-control span11">
+                  <span class="input-group-btn span1 inbuilt-btn">
+                    <button class="btn btn-default" type="button">&nbsp;</button>
+                  </span>
+                </div>
+              </div>
+              <div class="span12 filterOptions">
+                <select class="span12 selectBox" id="prizes" name="prizes">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+              </div>
+              <div class="span12 results">
+                <div class="span12 btn-wrap">
+                  <a class="results-control span4" href="#">active</a>
+                  <a class="results-control span4" href="#">inactive</a>
+                  <a class="results-control span4" href="#">all</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="span9 awardDetailsArea">
+            <div class="span12">
+              <h4>Map Detail</h4>
+              <div class="tabbable span12">
+                <ul class="nav-pills tNav">
+                  <li class="navSpan3 active"><a href="#2CA" data-toggle="tab">Map Details</a></li>
+                  <li class="navSpan3"><a href="#2CB" data-toggle="tab">Machine Details</a></li>
+                  <li class="navSpan3"><a href="#2CC" data-toggle="tab">Slot Inventory Data</a></li>
+                </ul>
+              </div>
+              <div class="tab-content tabConNext span12">
+                <div id="2CA" class="tab-pane active">
+                  <div class="span4">
+                    <form>
+                      <label for="map">Map</label>
+                      <input type="text" id="map"/>
+                      <label for="uploadMap">Upload Map</label>
+                      <div class="fileUploader">
+                        <a class='btn btn-inverse' href='javascript:;' style="right: 0; position: absolute;">
+                          Browse...
+                          <input type="file" id="uploadCSV" style='width: 82px; position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+                        </a>
+                        &nbsp;
+                        <span class='label label-info' id="upload-file-info"></span>
+                      </div>
+                      <input type="reset" class="btn btn-inverse span12" value="Clear Map"/>
+                    </form>
+                  </div>
+                </div>
+                <div id="2CB" class="tab-pane">
+                  <div class="span4">
+                    <div class="span12 filterOptions">
+                      <select class="span12 selectBox" id="prizes" name="prizes">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </div>
+                    <div class="span12 filterOptions">
+                      <select class="span12 selectBox" id="prizes" name="prizes">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </div>
+                    <div class="span12 filterOptions">
+                      <select class="span12 selectBox" id="prizes" name="prizes">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </div>
+                    <div class="span12 filterOptions">
+                      <select class="span12 selectBox" id="prizes" name="prizes">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </div>
+                    <div class="span12 results results2">
+
+                    </div>
+                  </div>
+                  <div class="span8">
+                    <div class="span7">
+                      <label for="machineManufacturer">Manufacturer</label>
+                      <select name="machineManufacturer" id="machineManufacturer">
+                        <option value="manufacturer1">manufacturer1</option>
+                        <option value="manufacturer2">manufacturer2</option>
+                        <option value="manufacturer3">manufacturer3</option>
+                        <option value="manufacturer4">manufacturer4</option>
+                      </select>
+                      <label for="machinegametype">Game Type</label>
+                      <select name="machinegametype" id="machinegametype">
+                        <option value="game type 1">Game Type 1</option>
+                        <option value="game type 2">Game Type 2</option>
+                        <option value="game type 3">Game Type 3</option>
+                      </select>
+                      <label for="machineDenomination">Denomination</label>
+                      <select name="machineDenomination" id="machineDenomination">
+                        <option value="denomination 1">Denomination 1</option>
+                        <option value="denomination 2">Denomination 2</option>
+                        <option value="denomination 3">Denomination 3</option>
+                      </select>
+                      <label for="machineGameName">Game Name</label>
+                      <select name="machineGameName" id="machineGameName">
+                        <option value="game name 1">Game Name 1</option>
+                        <option value="game name 2">Game Name 2</option>
+                        <option value="game name 3">Game Name 3</option>
+                        <option value="game name 4">Game Name 4</option>
+                      </select>
+                    </div>
+                    <div class="span5 margin0">
+                      <label for="machineID">Asset ID</label>
+                      <input type="text" id="machineID" class="span12"/>
+                      <label class="centerLabel">Map Coordinates</label>
+                      <div class="span12">
+                        <form>
+                          <div class="span6">
+                            <label for="mapCoordinatesX">X</label>
+                            <input type="text" id="mapCoordinatesX" class="span12"/>
+                          </div>
+                          <div class="span6">
+                            <label for="mapCoordinatesY">Y</label>
+                            <input type="text" id="mapCoordinatesY" class="span12"/>
+                          </div>
+                          <input type="reset" class="btn btn-inverse span12 centerBtn" value="Clear Coordinates"/>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="2CC" class="tab-pane">
+                  <div class="span12">
+                    <form class="barcode radio fieldset">
+                      <fieldset>
+                        <legend>
+                          <input type="checkbox" id="control8" class="control">
+                          <label for="control8" class="controlLabel noCheck">Slot Inventory Update Method</label>
+                        </legend>
+                        <div>
+                          <div class="span4">
+                            <input type="radio" id="syncServices" name="inventorydata">
+                            <label for="syncServices">Sync Services</label>
+                            <input type="radio" id="manualUpload" name="inventorydata">
+                            <label for="manualUpload">Manual File Upload</label>
+                          </div>
+                          <div class="span8">
+
+                          </div>
+                        </div>
+                      </fieldset>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="js/plugin/jQuery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap/bootstrap.timepicker.js"></script>
+<script type="text/javascript" src="js/bootstrap/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="js/custom/main.js"></script>
+</body>
+</html>
